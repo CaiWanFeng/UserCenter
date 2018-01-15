@@ -13,6 +13,10 @@
 		D93E225020031E1A0031A891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93E224F20031E1A0031A891 /* Assets.xcassets */; };
 		D93E225320031E1A0031A891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93E225120031E1A0031A891 /* LaunchScreen.storyboard */; };
 		D93E225620031E1A0031A891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E225520031E1A0031A891 /* main.m */; };
+		D93E226120031E8E0031A891 /* CQUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E226020031E8E0031A891 /* CQUserCenterViewController.m */; };
+		D93E226420031EFA0031A891 /* CQUserCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E226320031EFA0031A891 /* CQUserCenterCell.m */; };
+		D93E2267200320250031A891 /* CQUserCenterCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E2266200320250031A891 /* CQUserCenterCellModel.m */; };
+		D9ACB5032004C37200EEEBE0 /* CQUserCenterCell+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D9ACB5022004C37200EEEBE0 /* CQUserCenterCell+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		D93E225220031E1A0031A891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D93E225420031E1A0031A891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93E225520031E1A0031A891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D93E225F20031E8E0031A891 /* CQUserCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQUserCenterViewController.h; sourceTree = "<group>"; };
+		D93E226020031E8E0031A891 /* CQUserCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQUserCenterViewController.m; sourceTree = "<group>"; };
+		D93E226220031EFA0031A891 /* CQUserCenterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQUserCenterCell.h; sourceTree = "<group>"; };
+		D93E226320031EFA0031A891 /* CQUserCenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQUserCenterCell.m; sourceTree = "<group>"; };
+		D93E2265200320250031A891 /* CQUserCenterCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQUserCenterCellModel.h; sourceTree = "<group>"; };
+		D93E2266200320250031A891 /* CQUserCenterCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQUserCenterCellModel.m; sourceTree = "<group>"; };
+		D9ACB5012004C37200EEEBE0 /* CQUserCenterCell+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CQUserCenterCell+Util.h"; sourceTree = "<group>"; };
+		D9ACB5022004C37200EEEBE0 /* CQUserCenterCell+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CQUserCenterCell+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,9 @@
 		D93E224520031E1A0031A891 /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
+				D93E225E20031E510031A891 /* Model */,
+				D93E225D20031E4B0031A891 /* View */,
+				D93E225C20031E430031A891 /* Controller */,
 				D93E224620031E1A0031A891 /* AppDelegate.h */,
 				D93E224720031E1A0031A891 /* AppDelegate.m */,
 				D93E224920031E1A0031A891 /* ViewController.h */,
@@ -69,6 +84,35 @@
 				D93E225520031E1A0031A891 /* main.m */,
 			);
 			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		D93E225C20031E430031A891 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D93E225F20031E8E0031A891 /* CQUserCenterViewController.h */,
+				D93E226020031E8E0031A891 /* CQUserCenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D93E225D20031E4B0031A891 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D93E226220031EFA0031A891 /* CQUserCenterCell.h */,
+				D93E226320031EFA0031A891 /* CQUserCenterCell.m */,
+				D9ACB5012004C37200EEEBE0 /* CQUserCenterCell+Util.h */,
+				D9ACB5022004C37200EEEBE0 /* CQUserCenterCell+Util.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D93E225E20031E510031A891 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D93E2265200320250031A891 /* CQUserCenterCellModel.h */,
+				D93E2266200320250031A891 /* CQUserCenterCellModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +146,7 @@
 				TargetAttributes = {
 					D93E224220031E1A0031A891 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -143,7 +187,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D93E224B20031E1A0031A891 /* ViewController.m in Sources */,
+				D93E2267200320250031A891 /* CQUserCenterCellModel.m in Sources */,
 				D93E225620031E1A0031A891 /* main.m in Sources */,
+				D93E226120031E8E0031A891 /* CQUserCenterViewController.m in Sources */,
+				D93E226420031EFA0031A891 /* CQUserCenterCell.m in Sources */,
+				D9ACB5032004C37200EEEBE0 /* CQUserCenterCell+Util.m in Sources */,
 				D93E224820031E1A0031A891 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,12 +326,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J5JWPJ294;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UserCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KuaiJianKang.UserCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,12 +341,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J5JWPJ294;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UserCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KuaiJianKang.UserCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
