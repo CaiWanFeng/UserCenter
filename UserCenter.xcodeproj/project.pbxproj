@@ -16,7 +16,6 @@
 		D93E226120031E8E0031A891 /* CQUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E226020031E8E0031A891 /* CQUserCenterViewController.m */; };
 		D93E226420031EFA0031A891 /* CQUserCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E226320031EFA0031A891 /* CQUserCenterCell.m */; };
 		D93E2267200320250031A891 /* CQUserCenterCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E2266200320250031A891 /* CQUserCenterCellModel.m */; };
-		D9ACB5032004C37200EEEBE0 /* CQUserCenterCell+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D9ACB5022004C37200EEEBE0 /* CQUserCenterCell+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +35,6 @@
 		D93E226320031EFA0031A891 /* CQUserCenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQUserCenterCell.m; sourceTree = "<group>"; };
 		D93E2265200320250031A891 /* CQUserCenterCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQUserCenterCellModel.h; sourceTree = "<group>"; };
 		D93E2266200320250031A891 /* CQUserCenterCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQUserCenterCellModel.m; sourceTree = "<group>"; };
-		D9ACB5012004C37200EEEBE0 /* CQUserCenterCell+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CQUserCenterCell+Util.h"; sourceTree = "<group>"; };
-		D9ACB5022004C37200EEEBE0 /* CQUserCenterCell+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CQUserCenterCell+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +97,6 @@
 			children = (
 				D93E226220031EFA0031A891 /* CQUserCenterCell.h */,
 				D93E226320031EFA0031A891 /* CQUserCenterCell.m */,
-				D9ACB5012004C37200EEEBE0 /* CQUserCenterCell+Util.h */,
-				D9ACB5022004C37200EEEBE0 /* CQUserCenterCell+Util.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,7 +186,6 @@
 				D93E225620031E1A0031A891 /* main.m in Sources */,
 				D93E226120031E8E0031A891 /* CQUserCenterViewController.m in Sources */,
 				D93E226420031EFA0031A891 /* CQUserCenterCell.m in Sources */,
-				D9ACB5032004C37200EEEBE0 /* CQUserCenterCell+Util.m in Sources */,
 				D93E224820031E1A0031A891 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

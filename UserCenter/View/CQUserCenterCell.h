@@ -16,4 +16,17 @@
 /** 隐藏cell右边的箭头 */
 - (void)hideIndicator;
 
+/** 设置积分 */
+- (void)setPoints:(NSInteger)points;
+
+/** 设置未读消息数量 */
+- (void)setUnreadMessageNum:(NSInteger)unreadMessageNum;
+
+/**
+ 添加控制夜间模式的switch
+ 
+ @param handler 开启\关闭夜间模式时回调的block
+ */
+- (void)addNightModeSwitchWithHandler:(void(^)(BOOL isOn))handler;
+
 @end

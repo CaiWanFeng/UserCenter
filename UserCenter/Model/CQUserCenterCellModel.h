@@ -10,7 +10,9 @@
 
 @interface CQUserCenterCellModel : NSObject
 
+/** 左边icon */
 @property (nonatomic, copy) NSString *icon;
+/** 文本详情 */
 @property (nonatomic, copy) NSString *title;
 
 @end

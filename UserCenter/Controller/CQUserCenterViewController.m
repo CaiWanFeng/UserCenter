@@ -8,7 +8,6 @@
 
 #import "CQUserCenterViewController.h"
 #import "CQUserCenterCell.h"
-#import "CQUserCenterCell+Util.h"
 
 @interface CQUserCenterViewController () <UITableViewDataSource, UITableViewDelegate>
 
